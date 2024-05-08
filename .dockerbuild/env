@@ -1,0 +1,14 @@
+# Source
+BUILD_REGISTRY_IMAGE="harbor.solumesl.com/maven/maven:3.8-eclipse-temurin-17-alpine"
+SOURCE_REGISTRY_IMAGE="harbor.solumesl.com/aims-4/aims-base-java17:4.5-stable"
+
+# Builder
+BUILDER=buildah
+
+# App
+APP_REGISTRY_IMAGE="harbor.solumesl.com/aims-saas/aims-saas-rossmann-shelf-system"
+APP_NAME="aims-saas-rossmann-shelf-system"
+APP_COMPONENT="middleware"
+APP_PART_OF="aims-system"
+APP_MAINTAINER="seg-ae@solumesl.com"
+
